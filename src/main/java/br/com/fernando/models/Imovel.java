@@ -25,15 +25,15 @@ public class Imovel {
         this.cep = cep;
     }
 
-    public Imovel visualizarDadosImovel(){
+    public Imovel visualizarDadosImovel(Imovel imovel){
         throw new NotImplementedException();
     }
 
-    public Cliente visualizarDadosProprietario(){
+    public Cliente visualizarDadosProprietario(Imovel imovel){
         throw new NotImplementedException();
     }
 
-    public Servico visualizarHistoricoServicos(){
+    public Servico visualizarHistoricoServicos(Cliente cliente){
         throw new NotImplementedException();
     }
 }
