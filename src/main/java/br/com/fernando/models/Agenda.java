@@ -8,6 +8,7 @@ import java.util.List;
 
 public class Agenda {
     private int diasDeTrabalho;
+    private Funcionario funcionario;
 
     public Agenda(int diasDeTrabalho){
         this.diasDeTrabalho = diasDeTrabalho;

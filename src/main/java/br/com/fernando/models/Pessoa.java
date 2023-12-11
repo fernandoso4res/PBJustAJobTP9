@@ -7,6 +7,7 @@ public class Pessoa {
     private String email;
     private String cpf;
     private String perfil;
+    private Imovel imovel;
 
     public Pessoa(){
 

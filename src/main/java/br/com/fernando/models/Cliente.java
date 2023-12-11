@@ -5,7 +5,7 @@ import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 import java.util.List;
 
 public class Cliente extends Pessoa {
-
+        private Imovel imovel;
         public Cliente visualizarDadosCliente(Pessoa pessoa){
             throw new NotImplementedException();
         }
