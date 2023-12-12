@@ -26,11 +26,11 @@ public class Servico {
         this.fatura = fatura;
     }
 
-    public Date marcarVisitaParaCotacao(Date data, Imovel imovel, Funcionario gerente){
+    public Date solicitaDataVisitacao(Date data, Imovel imovel, Funcionario gerente){
         throw new NotImplementedException();
     }
 
-    public Date marcarRealizacaoDoServico(Date data){
+    public Date marcaDataServico(Date data){
         throw new NotImplementedException();
     }
 
@@ -41,4 +41,6 @@ public class Servico {
     public double avaliarServico(double nota){
         throw new NotImplementedException();
     }
+
+    public Date marcaDataCotacao(Date data){throw new NotImplementedException();}
 }

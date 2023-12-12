@@ -17,5 +17,7 @@ public class Cliente extends Pessoa {
             throw new NotImplementedException();
         }
 
+        public void verificaDadosCliente(Pessoa pessoa){throw new NotImplementedException();}
+
 
 }

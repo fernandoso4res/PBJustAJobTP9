@@ -14,9 +14,14 @@ public class Agenda {
         this.diasDeTrabalho = diasDeTrabalho;
     }
 
-    public ArrayList<Date> verificarDatasDisponiveis(){
+    public ArrayList<Date> datasDisponiveis(){
         throw new NotImplementedException();
     }
+    public ArrayList<Date> datasDisponiveis(Funcionario gerente){ throw new NotImplementedException();}
+
+    public void marcarData(Date data){throw new NotImplementedException();}
+
+    public void confirmaData(){throw new NotImplementedException();}
 
     public boolean visualizarDisponibilidadeData(Date data){
         throw new NotImplementedException();

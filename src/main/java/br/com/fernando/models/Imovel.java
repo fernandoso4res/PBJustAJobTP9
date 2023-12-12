@@ -36,4 +36,6 @@ public class Imovel {
     public Servico visualizarHistoricoServicos(Cliente cliente){
         throw new NotImplementedException();
     }
+
+    public void verificaImovel(Imovel imovel){throw new NotImplementedException();}
 }
